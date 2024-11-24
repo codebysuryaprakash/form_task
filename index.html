@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>billing information</h2>
+
+    <form action="#" method="GET">
+
+        <div>
+            <label for="name">name:</label>
+            <input name="name" type="text" id="name" required >
+        </div>
+
+        <div>
+            <label for="email">Email:</label>
+            <input name="email" type="email" id="email" required placeholder="xyz@gmail.com"> 
+        </div>
+
+        <div>
+            <label for="amount">Bill amount</label>
+            <input name="amount" type="number" id="amount" required placeholder="atleast 6 characters">
+        </div>
+
+        <div>
+            <label for="date">Bill date:</label>
+            <input name="date" type="date" id="date" >
+        </div>
+
+       
+        <button type="submit">Submit</button>
+    </form>
+    <hr>
+
+    <h2>Appoinment Scheduling form</h2>
+    <form action="#" method="GET">
+
+        <div>
+            <label for="name">Name</label>
+            <input name="Name" type="text" id="Name" placeholder="Fullname" required>
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+            <input name="email" type="email" id="email" placeholder="xyz@email.com" required>
+        </div>
+
+        <div>
+            <label for="date">Appoinment date:</label>
+            <input name="date" type="date" id="date" >
+        </div>
+
+        <div>
+            <label for="time">Appoinment Time:</label>
+            <input name="time" type="time" id="time" required>
+        </div>
+
+        <div>
+            <label for="contactnumber">Phone</label>
+            <input name="contactnumber" type="tel" id="contactnumber" minlength="10" placeholder="9876543210" required>
+        </div>
+
+        <button type="submit">Submit</button>
+
+    </form>
+    <hr>
+
+    <h2>Product Purchase Form</h2>
+    <form action="#" method="GET">
+
+        <div>
+            <label for="Productname">Productname:</label>
+            <input name="Productname" type="text" id="Productname" required>
+        </div>
+
+        <div>
+            <label for="email">Email:</label>
+            <input name="email" type="email" id="email" required placeholder="xyz@gmail.com">
+        </div>
+
+        <div>
+            <label for="quantity">Quantity:</label>
+            <input name="quantity" type="number" id="quantity" min="1" required>
+        </div>
+
+        <div>
+            <label for="date">Delivery Date:</label>
+            <input name="date" type="date" id="date">
+        </div>
+
+        <button type="submit" >Submit</button>
+    </form>
+    <hr>
+    
+    <h2>example</h2>
+    <form action="#" method="GET">
+
+        <div>
+            <label for="username">Username:</label>
+            <input name="uname" type="text" id="username" required >
+        </div>
+
+        <div>
+            <label for="email">Email:</label>
+            <input name="email" type="email" id="email" required placeholder="xyz@gmail.com">
+        </div>
+
+        <div>
+            <label for="age">Age:</label>
+            <input name="age" type="number" id="age" min="18" max="30" step="2" placeholder="18">
+        </div>
+
+        <div>
+            <label for="password">Password</label>
+            <input name="password" type="password" id="password" required placeholder="atleast 6 characters">
+        </div>
+
+        <div>
+            <label for="dateofbirth">DOB:</label>
+            <input name="dateofbirth" type="date" id="dateofbirth" min="2024-08-08" >
+        </div>
+
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+    </form>
+<hr>
+
+</body>
+</html>
