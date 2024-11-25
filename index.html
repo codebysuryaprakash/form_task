@@ -96,7 +96,7 @@
     <hr>
     
     <h2>example</h2>
-    <form action="#" method="GET">
+    <form action="#" method="GET" enctype="multipart/form-data">
 
         <div>
             <label for="username">Username:</label>
@@ -122,6 +122,79 @@
             <label for="dateofbirth">DOB:</label>
             <input name="dateofbirth" type="date" id="dateofbirth" min="2024-08-08" >
         </div>
+
+        <div>
+            <label>Favourite:</label>
+
+            <input type="checkbox" name="Singing" id="Singing" checked>
+            <label for="Singing">Singing</label>
+
+            <input type="checkbox" name="Dancing" id="Dancing">
+            <label for="Dancing">Dancing</label>
+
+            <input type="checkbox" name="Playing" id="Playing" >
+            <label for="Playing">Playing</label>
+            
+        </div>
+
+        <div>
+            <label>Gender: </label> 
+
+            <input type="radio" name="Gender" id="male" value="male" checked >
+            <label for="male">male</label>
+
+            <input type="radio" name="Gender" id="female" value="female">
+            <label for="female">female</label>
+        </div>
+
+        <div>
+            <label for="country">Country</label>
+
+            <select name="country" id="country">
+                <option value="" disabled selected>Select your country</option>
+                <option value="india" >India</option>
+                <option value="srilanka">Srilanka</option>
+                <option value="usa">USA</option>
+                <option value="China">China</option>
+            </select>
+
+        </div>
+
+        <div>
+            <label for="summary">Summary</label>
+            <textarea name="summary" id="summary">Hello,</textarea>
+        </div>
+
+        <div>
+            <label for="resume">Resume</label>
+            <input name="resume" type="file" id="resume">
+        </div>
+
+        <div>
+            <label for="contactnumber">Contact</label>
+            <select name="contactnumber-isd">
+                <option value="+91">+91</option>
+                <option value="+81" selected>+81</option>
+                <option value="+71">+71</option>
+
+            </select>
+
+        <div>
+            <label for="website">URL</label>
+            <input name="website" type="url" id="website">
+        </div>
+
+        <div>
+            <label for="color">Color</label>
+            <input name="color" type="color" id="color">
+        </div>
+
+            <input name="contactnumber" type="tel" id="contactnumber">
+        </div>
+
+        
+        <input type="hidden" name="userid" value="1">
+     
 
         <button type="reset">Reset</button>
         <button type="submit">Submit</button>
